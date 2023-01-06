@@ -1,0 +1,2 @@
+/home/linq/workspace/LeptJson/LeptJ/build/CMakeFiles/leptjson.dir
+/home/linq/workspace/LeptJson/LeptJ/build/CMakeFiles/leptjson_test.dir

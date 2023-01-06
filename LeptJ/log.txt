@@ -1,0 +1,128 @@
+0000000   #   i   n   c   l   u   d   e       "   l   e   p   t   j   s
+0000020   o   n   .   h   "  \n   #   i   n   c   l   u   d   e       <
+0000040   a   s   s   e   r   t   .   h   >  \n   #   i   n   c   l   u
+0000060   d   e       <   s   t   d   l   i   b   .   h   >  \n  \n   #
+0000100   d   e   f   i   n   e       E   X   P   E   C   T   (   c   ,
+0000120       c   h   )       d   o       {       a   s   s   e   r   t
+0000140   (   *   c   -   >   j   s   o   n       =   =       (   c   h
+0000160   )   )   ;       c   -   >   j   s   o   n   +   +   ;   }    
+0000200   w   h   i   l   e   (   0   )  \n  \n   t   y   p   e   d   e
+0000220   f       s   t   r   u   c   t       {  \n                   c
+0000240   o   n   s   t       c   h   a   r   *       j   s   o   n   ;
+0000260  \n   }   l   e   p   t   _   c   o   n   t   e   x   t   ;  \n
+0000300  \n   s   t   a   t   i   c       v   o   i   d       l   e   p
+0000320   t   _   p   a   r   s   e   _   w   h   i   t   e   s   p   a
+0000340   c   e   (   l   e   p   t   _   c   o   n   t   e   x   t   *
+0000360       c   )       {  \n                   c   o   n   s   t    
+0000400   c   h   a   r       *   p       =       c   -   >   j   s   o
+0000420   n   ;  \n                   w   h   i   l   e   (   *   p    
+0000440   =   =       '       '       |   |       *   p       =   =    
+0000460   '   \   t   '       |   |       *   p       =   =       '   \
+0000500   n   '       |   |       *   p       =   =           '   \   r
+0000520   '   )  \n                                   p   +   +   ;  \n
+0000540                   c   -   >   j   s   o   n       =       p   ;
+0000560  \n   }  \n  \n   s   t   a   t   i   c       i   n   t       l
+0000600   e   p   t   _   p   a   r   s   e   _   n   u   l   l   (   l
+0000620   e   p   t   _   c   o   n   t   e   x   t   *       c   ,    
+0000640   l   e   p   t   _   v   a   l   u   e   *       v   )       {
+0000660  \n                   E   X   P   E   C   T   (   c   ,       '
+0000700   n   '   )   ;  \n                   i   f   (   c   -   >   j
+0000720   s   o   n   [   0   ]       !   =       '   u   '       |   |
+0000740       c   -   >   j   s   o   n   [   1   ]       !   =       '
+0000760   1   '       |   |       c   -   >   j   s   o   n   [   2   ]
+0001000       !   =       '   1   '   )  \n                            
+0001020       r   e   t   u   r   n       L   E   P   T   _   P   A   R
+0001040   S   E   _   I   N   V   A   L   I   D   _   V   A   L   U   E
+0001060   ;  \n                   c   -   >   j   s   o   n       +   =
+0001100       3   ;  \n                   v   -   >   t   y   p   e    
+0001120   =       L   E   P   T   _   N   U   L   L   ;  \n      \n    
+0001140           r   e   t   u   r   n       L   E   P   T   _   P   A
+0001160   R   S   E   _   O   K   ;  \n   }  \n  \n   s   t   a   t   i
+0001200   c       i   n   t       l   e   p   t   _   p   a   r   s   e
+0001220   _   t   r   u   e   (   l   e   p   t   _   c   o   n   t   e
+0001240   x   t   *       c   ,       l   e   p   t   _   v   a   l   u
+0001260   e   *       v   )       {  \n                   E   X   P   E
+0001300   C   T   (   c   ,       '   t   '   )   ;  \n                
+0001320   i   f   (   c   -   >   j   s   o   n   [   0   ]       !   =
+0001340       '   r   '       |   |       c   -   >   j   s   o   n   [
+0001360   1   ]       !   =       '   u   '       |   |       c   -   >
+0001400   j   s   o   n   [   2   ]       !   =       '   e   '   )  \n
+0001420                                   r   e   t   u   r   n       L
+0001440   E   P   T   _   P   A   R   S   E   _   I   N   V   A   L   I
+0001460   D   _   V   A   L   U   E   ;  \n                   c   -   >
+0001500   j   s   o   n       +   =       3   ;  \n                   v
+0001520   -   >   t   y   p   e       =       L   E   P   T   _   T   R
+0001540   U   E   ;  \n                  \n                   r   e   t
+0001560   u   r   n       L   E   P   T   _   P   A   R   S   E   _   O
+0001600   K   ;  \n   }  \n  \n  \n   s   t   a   t   i   c       i   n
+0001620   t       l   e   p   t   _   p   a   r   s   e   _   f   a   l
+0001640   s   e   (   l   e   p   t   _   c   o   n   t   e   x   t   *
+0001660       c   ,       l   e   p   t   _   v   a   l   u   e   *    
+0001700   v   )       {  \n                   E   X   P   E   C   T   (
+0001720   c   ,       '   f   '   )   ;  \n                   i   f   (
+0001740   c   -   >   j   s   o   n   [   0   ]       !   =       '   l
+0001760   '       |   |       c   -   >   j   s   o   n   [   1   ]    
+0002000   !   =       '   a   '       |   |       c   -   >   j   s   o
+0002020   n   [   2   ]       !   =       '   s   '       |   |       c
+0002040   -   >   j   s   o   n   [   3   ]       !   =       '   e   '
+0002060   )  \n                                   r   e   t   u   r   n
+0002100       L   E   P   T   _   P   A   R   S   E   _   I   N   V   A
+0002120   L   I   D   _   V   A   L   U   E   ;  \n                   c
+0002140   -   >   j   s   o   n       +   =       4   ;  \n            
+0002160       v   -   >   t   y   p   e       =       L   E   P   T   _
+0002200   F   A   L   S   E   ;  \n                  \n                
+0002220   r   e   t   u   r   n       L   E   P   T   _   P   A   R   S
+0002240   E   _   O   K   ;  \n   }  \n  \n   s   t   a   t   i   c    
+0002260   i   n   t       l   e   p   t   _   p   a   r   s   e   _   v
+0002300   a   l   u   e   (   l   e   p   t   _   c   o   n   t   e   x
+0002320   t   *       c   ,       l   e   p   t   _   v   a   l   u   e
+0002340   *       v   )       {  \n                   s   w   i   t   c
+0002360   h       (   *   c   -   >   j   s   o   n   )       {  \n    
+0002400                               c   a   s   e       '   n   '   :
+0002420               r   e   t   u   r   n       l   e   p   t   _   p
+0002440   a   r   s   e   _   n   u   l   l   (   c   ,       v   )   ;
+0002460  \n                                   c   a   s   e       '   t
+0002500   '   :               r   e   t   u   r   n       l   e   p   t
+0002520   _   p   a   r   s   e   _   t   r   u   e   (   c   ,       v
+0002540   )   ;  \n                                   c   a   s   e    
+0002560   '   f   '   :               r   e   t   u   r   n       l   e
+0002600   p   t   _   p   a   r   s   e   _   f   a   l   s   e   (   c
+0002620   ,       v   )   ;  \n                                   c   a
+0002640   s   e       '   \   0   '   :           r   e   t   u   r   n
+0002660       L   E   P   T   _   P   A   R   S   E   _   E   X   P   E
+0002700   C   T   _   V   A   L   U   E   ;  \n                        
+0002720           d   e   f   a   u   l   t   :                   r   e
+0002740   t   u   r   n       L   E   P   T   _   P   A   R   S   E   _
+0002760   I   N   V   A   L   I   D   _   V   A   L   U   E   ;  \n    
+0003000               }  \n   }  \n  \n   i   n   t       l   e   p   t
+0003020   _   p   a   r   s   e   (   l   e   p   t   _   v   a   l   u
+0003040   e   *       v   ,       c   o   n   s   t       c   h   a   r
+0003060   *       j   s   o   n   )       {  \n                   l   e
+0003100   p   t   _   c   o   n   t   e   x   t       c   ;  \n        
+0003120           i   n   t       r   e   t   ;  \n                   a
+0003140   s   s   e   r   t   (   v       !   =       N   U   L   L   )
+0003160   ;  \n                   c   .   j   s   o   n       =       j
+0003200   s   o   n   ;  \n                   v   -   >   t   y   p   e
+0003220       =       L   E   P   T   _   N   U   L   L   ;  \n        
+0003240           l   e   p   t   _   p   a   r   s   e   _   w   h   i
+0003260   t   e   s   p   a   c   e   (   &   c   )   ;  \n            
+0003300       i   f   (   (   r   e   t       =       l   e   p   t   _
+0003320   p   a   r   s   e   _   v   a   l   u   e   (   &   c   ,    
+0003340   v   )   )       =   =       L   E   P   T   _   P   A   R   S
+0003360   E   _   O   K   )       {  \n                                
+0003400   l   e   p   t   _   p   a   r   s   e   _   w   h   i   t   e
+0003420   s   p   a   c   e   (   &   c   )   ;  \n                    
+0003440               i   f   (   *   c   .   j   s   o   n       !   =
+0003460       '   \   0   '   )  \n                                    
+0003500               r   e   t       =       L   E   P   T   _   P   A
+0003520   R   S   E   _   R   O   O   T   _   N   O   T   _   S   I   N
+0003540   G   U   L   A   R   ;  \n                   }  \n  \n        
+0003560           r   e   t   u   r   n       r   e   t   ;  \n   }  \n
+0003600  \n   l   e   p   t   _   t   y   p   e       l   e   p   t   _
+0003620   g   e   t   _   t   y   p   e   (   c   o   n   s   t       l
+0003640   e   p   t   _   v   a   l   u   e   *       v   )       {  \n
+0003660                   a   s   s   e   r   t   (   v       !   =    
+0003700   N   U   L   L   )   ;              \n                   r   e
+0003720   t   u   r   n       v   -   >   t   y   p   e   ;  \n   }  \n
+0003740  \n  \n
+0003742
