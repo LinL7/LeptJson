@@ -7,6 +7,8 @@
 #IncludeRegexTransform: 
 
 /home/linq/workspace/LeptJson/LeptJ/leptjson.h
+stddef.h
+-
 
 /home/linq/workspace/LeptJson/LeptJ/test.c
 stdio.h

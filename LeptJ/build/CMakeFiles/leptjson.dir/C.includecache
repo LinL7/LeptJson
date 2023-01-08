@@ -11,8 +11,16 @@ leptjson.h
 /home/linq/workspace/LeptJson/LeptJ/leptjson.h
 assert.h
 -
+errno.h
+-
+math.h
+-
 stdlib.h
+-
+string.h
 -
 
 /home/linq/workspace/LeptJson/LeptJ/leptjson.h
+stddef.h
+-
 
